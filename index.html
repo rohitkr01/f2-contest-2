@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.icons8.com/ios-filled/50/exchange-money-ethereum.png"" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Fetching the apis</title>
+</head>
+<body>
+    <header>
+        <div class="h-search">
+            <input type="text" id="search-input" placeholder="Search By Name or Symbol">
+            <button id="search-button">Search</button>
+        </div>
+        <div class="h-button">
+            <button id="sort-market-cap-button">Sort by Market Cap</button>
+            <button id="sort-percentage-change-button">Sort by Percentage Change</button>
+        </div>
+    </header>
+
+    <div class="bitcoins-table" id="dataContainer">
+        <table id="data-table" >
+            <thead>
+
+            </thead>
+            <tbody id="data-table tbody">
+                <!-- Data fetched from API will be  automatically added here -->
+
+            </tbody>
+        </table>
+
+    </div>
+    
+
+    <!-- Adding script to html -->
+    <script src="./script.js"></script>
+    
+</body>
+</html>

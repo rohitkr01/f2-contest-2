@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1A1A1C;;
+    color: #FFFFFF;
+    padding: 20px 120px;
+}
+
+header{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-weight: 600;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.h-search, .h-button{
+    display: flex;
+    gap: 20px;
+}
+#search-input{
+    width: 450px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #030318;
+    color: #FFFFFF;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    overflow: none;
+    border: 1px solid rgb(121, 123, 123);
+}
+header input::placeholder{
+    color: #FFFFFF;
+    
+}
+
+
+.h-button button, #search-button{
+    background: transparent;
+    color: #FFFFFF;
+    padding: 0 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(121, 123, 123);
+    cursor: pointer;
+}
+
+.h-button button:hover, #search-button:hover{
+    background-color: rgb(24, 56, 24);
+}
+
+
+/* Table designing  */
+#data-table{
+    margin-top: 15px;
+    /* padding: 10px; */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#data-table td{
+    padding: 7px 5px;
+    align-items: center;
+    align-content: center;
+}
+
+#dataContainer table tr{
+    border-bottom: 2px solid gray;
+}
+
+
+
+.negative {
+    font-weight: bold;
+    color: red;
+  }
+  
+  .positive {
+    font-weight: bold;
+    color: green;
+  }
+  
